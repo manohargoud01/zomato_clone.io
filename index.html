@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lan="en">
+<head>
+<head>
+  <title>zomato</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="signin.css">
+<link rel="stylesheet" href="loginstyle.css">
+
+
+
+</head>
+<body>
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#"><i class="material-icons">phone_android</i>Get the App</a>
+			</div>
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="order.html"><i class="material-icons">local_grocery_store</i>Order Food</a></li>
+				<li><a href="#"><i class="material-icons">local_dining</i>Book a Table</a></li>
+				<li><a href="#"><i class="material-icons">grade</i>Tomato Gold</a></li>
+			</ul>
+		</div>
+	</nav>
+	<div class="header">
+		<div class="row">
+			<div class="btn1">
+			<button type="button" class="btn btn-default"><a href="signup.html">LOG IN</a></button>
+			<button type="button" class="btn btn-default"> <a href="signin.html">SIGN UP</a></button>
+		    </div>
+		</div>
+	
+	<div class="middle">
+
+		<div class="logo">
+			<h3 style="font-size: 30px;">zomato</h3>
+		</div>
+		<div class="text-center">
+			<h4 style="font-size: 25px; margin-top: 45px; color:#FFF;">Find the best restaurants, cafés, and bars in Hyderabad</h4>
+		</div>
+		<form>
+			<div class="col-xs-3">
+				<div class="input-group">
+					<span class="input-group-addon"><i class="glyphicon glyphicon-send"></i></span>
+					<input type="text-box" class="form-control" id="loc" placeholder="Please type a location">	
+				</div>
+			</div>
+		<div class="col-xs-6">
+			<div class="input-group">
+				<span class="input-group-addon"><i class="glyphicon glyphicon-search"></i></span>
+				<input type="text-box" class="form-control" id="rest" placeholder="Search for restaurants or cuisines...">			
+		    </div>
+		</div>
+		 <button type="button" class="btn btn-danger">Search</button>
+		</form>
+	</div>
+	</div>
+<!--part1 done-->
+<div class="mid">
+	<div class="container-fluid">
+		<div class="row">
+			
+			<div class= "col-xl-3" >
+				<h3 style="margin-left: -20px;">Collections</h3>
+				<h5 style="color:gray;font-size:16px;margin-left: -20px;font-weight: normal">Explore curated lists of top restaurants, cafes, pubs, and bars in and around Hyderabad, based on trends</h5>
+				<div class="row">
+					<div class="col-lg-4 col-md-12 col-sm-12 col-xs-12" id="one">
+						<div class="image1">
+						</div>
+						<div class="text1">
+							<h4><b>Trending this week</b></h4>
+							The most popular restaurants<br>in town this week
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-4 col-md-12 col-sm-12 col-xs-12" id="two">
+							<div class="image2">
+							</div>
+							<div class="text1">
+								<h4><b>Great food, no bull	</b></h4>
+								The hunt for the highest-rated<br>restaurants in your city ends...
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-4 col-md-12 col-sm-12 col-xs-12" id="three">
+							<div class="image3">
+							</div>
+							<div class="text1">
+								<h4><b>Navratri specials</b></h4>
+								The best restaurants to help<br>you feast while you fast
+							</div>
+						</div>
+					<div class="row">
+						<div class="col-lg-4 col-md-12 col-sm-12 col-xs-12" id="four">
+							<div class="image4">
+							</div>
+							<div class="text1">
+								<h4><b>Newly opened</b></h4>
+								The best new places in town
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+		<div  id="order" style="width:350px;">
+			<h5 style="color:gray;font-size:16px;margin-left: -20px;font-weight: normal">Explore curated lists of top restaurants, cafes, pubs, and bars in and around Hyderabad, based on trends</h5>
+			<h3>Order Food Online</h3>
+			<h5 style="color:gray;font-size:16px;font-weight: normal;">From the best restaurants delivering to your<br> doorstep</h5>
+			<div class="order_online" style="background-color: #FFF; padding-left: 10px; width:350px; border-radius: 7px;">
+					<p style="margin: -6px 0px 15px 15px; font-size: 16px;font-weight: 600;"><br>Enter your delivery location</p>
+					<div class="col-xs-12">
+						<div class="input-group" id="o_input">
+							<span class="input-group-addon"><i class="glyphicon glyphicon-send"></i></span>
+							<input type="text-box" class="form-control" id="loc" placeholder="Please type a location">	
+						</div>	
+					</div>	
+					<button type="button" class="btn btn-success" id="o_btn">Order Food Online!</button>
+					<p style="color:green; margin-top: 20px; padding-bottom: 30px;margin-left: 13px;">View restaurants delivering to you and get 30% OFF<br> on your first order with the promo code <b>GET200</b>.</p>
+			</div>	
+		</div>
+	
+<p style="color:#B22222;width: 69%;background-color: #fff;text-align: center;margin-left: -25px;padding: 15px 0px;margin-top: 15px;border-radius:7px;">All collections in Hyderabad</p>
+
+<div class="wrapper_menu">
+	<h3 style="margin-left: -20px;">Quick Searches</h3>
+	<h5 style="color:gray;font-size:16px;margin-left: -20px;font-weight: normal">Discover restaurants by type of meal</h5>
+	<div class="row wrapper">
+	  <div class="col-md-1 menu">
+	    <div>
+	      <a href="#">
+	        <img src="images/cat1.png" style="width:48px;">
+	        <div class="caption">
+	          <p>Delivery</p>
+	        </div>
+	      </a>
+	    </div>
+	  </div>
+	  <div class="col-md-1 menu">
+	    <div>
+	      <a href="#">
+	        <img src="images/cat2.png" style="width:48px;">
+	        <div class="caption"  style="width: 100px;">
+	          <p>Pocket-Friendly Delivery</p>
+	        </div>
+	      </a>
+	    </div>
+	  </div>
+	  <div class="col-md-1 menu">
+	    <div>
+	      <a href="#">
+	        <img src="images/cat3.png"  style="width:48px;">
+	        <div class="caption">
+	          <p>Lunch</p>
+	        </div>
+	      </a>
+	    </div>
+	  </div>
+	   <div class="col-md-1 menu">
+	    <div>
+	      <a href="#">
+	        <img src="images/cat4.png" style="width:48px;">
+	        <div class="caption">
+	          <p>Dinner</p>
+	        </div>
+	      </a>
+	    </div>
+	  </div>
+	  <div class="col-md-1 menu">
+	    <div>
+	      <a href="#">
+	        <img src="images/cat5.png" style="width:48px;">
+	        <div class="caption">
+	          <p>Drinks and Nightlife</p>
+	        </div>
+	      </a>
+	    </div>
+	  </div>
+	  <div class="col-md-1 menu">
+	    <div>
+	      <a href="#">
+	        <img src="images/cat6.png" style="width:48px;">
+	        <div class="caption">
+	          <p>Breakfast</p>
+	        </div>
+	      </a>
+	    </div>
+	  </div>
+	   <div class="col-md-1 menu">
+	    <div>
+	      <a href="#">
+	        <img src="images/cat7.png" style="width:48px;">
+	        <div class="caption">
+	          <p>Cafés</p>
+	        </div>
+	      </a>
+	    </div>
+	  </div>
+	  <div class="col-md-1 menu">
+	    <div>
+	      <a href="#">
+	        <img src="images/cat8.png" style="width:48px;">
+	        <div class="caption" style="width: 100px;">
+	          <p>Luxury Dining</p>
+	        </div>
+	      </a>
+	    </div>
+	  </div>
+	 </div>
+</div>
+</div>
+<div class="wrapper_menu">
+	<h3 style="margin-left: 70px;">Popular localities in and around Hyderabad</h3>
+	<h5 style="color:gray;font-size:16px;margin-left: 70px;font-weight: normal; margin-bottom: -50px;">Explore restaurants, bars, and cafés by locality</h5>
+
+<div class="container places">
+	<div class="row" style="margin: 0 -60px;">
+		<div class="col-md-3 col-sm-2">
+			<ul class="places_1">
+				<li><a href="#">Connaught Place</a> <a href="#" style="color: gray">(313 places)</a></li>
+				<li><a href="#">Rajouri Garden <a href="#" style="color: gray">(351 places)</a></li>
+				<li><a href="#">Golf Course Road <a href="#" style="color: gray"> (194 places)</a></li>
+				<li><a href="#">Indirapuram <a href="#" style="color: gray"> (439 places)</a></li>
+				<li><a href="#">Connaught Place <a href="#" style="color: gray"> (313 places)</a></li>
+				<li><a href="#">Connaught Place <a href="#" style="color: gray"> (313 places)</a></li>
+				<li><a href="#">Connaught Place<a href="#" style="color: gray"> (313 places)</a></li>
+				<li><a href="#">Connaught Place<a href="#" style="color: gray"> (313 places)</a></li>
+				<li><a href="#">Connaught Place <a href="#" style="color: gray">(313 places)</a></li>
+				<li><a href="#">Connaught Place <a href="#" style="color: gray">(313 places)</a></li>
+			</ul>
+		</div>
+			<div class="col-md-3 col-sm-2">
+			<ul class="places_2">
+				<li><a href="#">Connaught Place <a href="#" style="color: gray">(313 places)</a></li>
+				<li><a href="#">Rajouri Garden <a href="#" style="color: gray">(351 places)</a></li>
+				<li><a href="#">Golf Course Road <a href="#" style="color: gray">(194 places)</a></li>
+				<li><a href="#">Indirapuram <a href="#" style="color: gray">(439 places)</a></li>
+				<li><a href="#">Connaught Place <a href="#" style="color: gray">(313 places)</a></li>
+				<li><a href="#">Connaught Place <a href="#" style="color: gray">(313 places)</a></li>
+				<li><a href="#">Connaught Place <a href="#" style="color: gray">(313 places)</a></li>
+				<li><a href="#">Connaught Place <a href="#" style="color: gray">(313 places)</a></li>
+				<li><a href="#">Connaught Place <a href="#" style="color: gray">(313 places)</a></li>
+				<li><a href="#">Connaught Place <a href="#" style="color: gray">(313 places)</a></li>
+			</ul>
+		</div>
+			<div class="col-md-3 col-sm-2">
+			<ul class="places_3">
+				<li><a href="#">Connaught Place <a href="#" style="color: gray">(313 places)</a></li>
+				<li><a href="#">Rajouri Garden <a href="#" style="color: gray">(351 places)</a></li>
+				<li><a href="#">Golf Course Road <a href="#" style="color: gray">(194 places)</a></li>
+				<li><a href="#">Indirapuram <a href="#" style="color: gray">(439 places)</a></li>
+				<li><a href="#">Connaught Place <a href="#" style="color: gray">(313 places)</a></li>
+				<li><a href="#">Connaught Place <a href="#" style="color: gray">(313 places)</a></li>
+				<li><a href="#">Connaught Place <a href="#" style="color: gray">(313 places)</a></li>
+				<li><a href="#">Connaught Place <a href="#" style="color: gray"> (313 places)</a></li>
+				<li><a href="#">Connaught Place <a href="#" style="color: gray">(313 places)</a></li>
+				<li><a href="#">Connaught Place <a href="#" style="color: gray">(313 places)</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div class="statistics">
+	<div class="stats first">
+		<div class="value">24</div>
+		<div class="label1">COUNTRIES</div>
+	</div>
+	<div class="stats">
+		<div class="value">1.2M</div>
+		<div class="label1">Restaurants</div>
+	</div>
+	<div class="stats">
+		<div class="value">120M</div>
+		<div class="label1">foodies every month</div>
+	</div>
+	<div class="stats">
+		<div class="value">30M</div>
+		<div class="label1">photos</div>
+	</div>
+	<div class="stats">
+		<div class="value">10M</div>
+		<div class="label1">reviews</div>
+	</div>
+	<div class="stats">
+		<div class="value">18M</div>
+		<div class="label1">bookmarks</div>
+	</div>
+</div>
+
+
+		<div class="footer" style="min-height: 700px;">
+			<div class="wrap">
+				<div class="row">
+					<div class="col-m-10" style="width: 725px;">
+						<div class="logo1">
+							<h3 style="font-size: 15px; margin:3px -5px">zomato</h3>
+						</div>
+					</div>
+					<div class="col-m-6" style= "margin-top: -40px; margin-left: 1000px; width: 1200px;">
+						<div class="form-group" style="margin-left: 70px;">
+							<div class="input-group col-xs-2">
+								<span class="input-group-addon"> <i class="glyphicon glyphicon-globe"></i></span>
+									<select class="form-control">
+										<option>English</option>
+										<option>Cestina</option>
+										<option>Espanol</option>
+										<option>Indonesian</option>
+										<option>Italian</option>
+										<option>Polish</option>
+										<option>Postugues(BR)</option>
+										<option>Portugues(PT)</option>
+								</select>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+			<div class="footer_divider">
+			</div>
+
+			<div class="row">
+				<div class="col-m-4" style="padding-left: 90px;">
+					<h3 style="padding-left: 47px;">About zomato</h3>
+					<ul class="footer_links-1">
+						<li>About Us</li>
+						<li>Culture</li>
+						<li>Blog</li>
+						<li>Careers</li>
+						<li>Contact</li>
+					</ul>
+				</div>
+				<div class="col-m-5" style=" margin-top: -186px; margin-left: 360px;">
+					<h3 style="padding-left: 47px;">For Foodies</h3>
+					<ul class="footer-links-2">
+						<li>Code Of Conduct</li>
+						<li>Community</li>
+						<li>Verified Users</li>
+						<li>Blogger Help</li>
+						<li>developer</li>
+						<li>Mobile Apps</li>
+					</ul>
+				</div>
+				<div class="col-m-5" style="margin-top: -215px;margin-left: 860px;">
+					<h3 style="padding-left: 45px;">For Restaurants</h3>
+					<ul class="footer-links-3">
+						<li>Add a Restaurant</li>
+						<li>Claim your listing</li>
+						<li>Business App</li>
+						<li>Business Owner Guidelines</li>
+						<li>Buisness Blog</li>
+						<li>Restaurant Widget</li>
+						<li>Products for Business</li>
+					</ul>
+				</div>					
+		    </div>
+
+		    <div class="footer_divider">
+			</div>
+
+			<div class="footer_list">
+   
+				<ul class="footer_bottom">
+					<li>Privacy</li>
+					<li>Terms</li>
+					<li>API Policy</li>
+					<li>CSR</li>
+					<li>Security</li>
+					<li>Sitemap</li>
+				</ul>	
+
+			</div>
+
+			<div class="footer_divider"></div>		
+        </div>
+
+
+			
+
+
+
+
+</body>
+</html>
